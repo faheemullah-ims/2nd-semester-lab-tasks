@@ -9,6 +9,7 @@ struct book{
 	string title;
 	double price;
 };
+
 int main()
 {
 	book book1;
