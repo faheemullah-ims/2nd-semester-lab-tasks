@@ -6,6 +6,7 @@ class BankAccount{
 		string accountholder;
 		double balance;
 		public:
+
 			BankAccount(string name,double amt){
 			accountholder=name;
 			balance=amt;
@@ -16,6 +17,7 @@ class BankAccount{
 				return 0.0;//default no discount
 			}
 };
+
 class plateniumAccount:public BankAccount
 {
 	public:
