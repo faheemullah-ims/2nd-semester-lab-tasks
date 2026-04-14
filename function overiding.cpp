@@ -18,7 +18,7 @@ class BankAccount{
 			}
 };
 
-class plateniumAccount:public BankAccount
+class plateniumAccount:public BankAccount// platenium accouont inhereted from BankAccount
 {
 	public:
 	plateniumAccount(string name,double amt):BankAccount(name,amt){
