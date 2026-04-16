@@ -17,3 +17,5 @@ int main()
 	cout<<"BOOK 1 price: "<<book1.price<<endl;
 	return 0;
 }
+
+
