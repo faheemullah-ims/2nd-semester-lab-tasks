@@ -9,7 +9,6 @@ class demo{
 			cout<<"destructor is called! \n";
 			cout<<"i= "<<i<<endl;
 		}
-	
 };
 int main()
 {
