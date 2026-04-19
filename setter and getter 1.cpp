@@ -17,6 +17,7 @@ class student{
 			cout<<"Roll no= "<<rollno<<endl;
 		}
 };
+
 int main()
 {
 	student s1;
