@@ -7,10 +7,10 @@ class student{
 		int rollno;
 	public:
 		void setter(string n,int r)
-		{
-			name=n;
+	    {	name=n;
 			rollno=r;
 		}
+
 		void display()
 		{
 			cout<<"Name= "<<name<<endl;
