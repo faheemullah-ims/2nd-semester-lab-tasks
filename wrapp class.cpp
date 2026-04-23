@@ -68,6 +68,6 @@ class wrap {
 
 };
 int main(){
-	wrap cal;
+	wrap cal;//create object for wrap class
 	cal.process();
 }
