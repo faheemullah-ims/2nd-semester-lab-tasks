@@ -29,6 +29,7 @@ class economy_ride:public Ride {
 		double final_fare() {
 			return basefare+(distancekm*8);
 		}
+
 		void display_economy() {
 			display_ride();
 
