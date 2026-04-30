@@ -11,6 +11,7 @@ class Add1 {
 			return a+b;
 		}
 };
+
 class Add2 {
 	public :
 		int x,y;
