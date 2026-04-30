@@ -6,6 +6,7 @@ class demo{
 			cout<<"construtor is called! \n";
 		}
 		~demo(){//destructor are called in the end
+
 			cout<<"destructor is called! \n";
 			cout<<"i= "<<i<<endl;
 		}
