@@ -15,6 +15,7 @@ class Rectangle{
 			double calculateperimeter(){
 			 return 2*(length+width);	
 			}
+
 			void display(){
 				cout<<"Length= "<<length<<endl;
 				cout<<"Width= "<<width<<endl;
