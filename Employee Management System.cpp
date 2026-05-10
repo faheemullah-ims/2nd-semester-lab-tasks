@@ -5,7 +5,6 @@ class Employee {
 	protected:
 		string name;
 		int id;
-
 	public:
 		void setData() {
 			cout << "Enter Name: ";
@@ -14,7 +13,8 @@ class Employee {
 			cin >> id;
 		}
 
-		virtual void display() {
+		virtual void display() {//display function
+			
 			cout << "Name: " << name << endl;
 			cout << "ID: " << id << endl;
 		}
